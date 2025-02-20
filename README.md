@@ -1,6 +1,6 @@
 # **Technical description of the project**
 
-📌 **Project:** Social application
+📌 **Project:** Network coffee service
 📌 **Technologies:** Java 21, Spring Boot 3, PostgreSQL, WebFlux, JWT, Docker, Lombok, Prometheus, Grafana, Swagger, JavaScript
 
 ---
