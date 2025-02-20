@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+
+  postgres-coffee-db:
+    container_name: postgres_coffee
+    image: postgres:latest
+    restart: always
+    env_file:
+      - ../secrets/coffee-db.env
+    ports:
+      - "5432:5432"
+    volumes:
+      - coffee-db-data:/var/lib/postgresql/data
+
+volumes:
+  coffee-db-data:
